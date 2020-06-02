@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <button type="button" onclick="calc()">Calculate volume</button>
+    <p id="vol"></p>
+
+    <script>
+      var length=5;
+      var width=7;
+      var height=4;
+
+      function calc() {
+        var x = length * width * height;
+        document.getElementById("vol").innerHTML = x;
+      }
+
+    </script>
+  </body>
+</html>
